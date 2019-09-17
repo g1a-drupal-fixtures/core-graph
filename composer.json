@@ -1,15 +1,17 @@
 {
-  "name": "drupal/core-graph",
-  "description": "Graph.",
-  "keywords": ["drupal"],
-  "homepage": "https://www.drupal.org/project/drupal",
-  "license": "GPL-2.0-or-later",
-  "require": {
-    "php": ">=7.0.8"
-  },
-  "autoload": {
-    "psr-4": {
-      "Drupal\\Component\\Graph\\": ""
+    "name": "g1a-drupal-fixtures/core-graph",
+    "description": "Graph.",
+    "keywords": [
+        "drupal"
+    ],
+    "homepage": "https://www.drupal.org/project/drupal",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=7.0.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\Component\\Graph\\": ""
+        }
     }
-  }
 }
